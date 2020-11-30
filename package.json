@@ -1,8 +1,8 @@
 {
   "name": "zmy-sh-util",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "开发常用的工具方法收集",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -33,8 +33,5 @@
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.0.3"
-  },
-  "files": [
-    "lib/**/*"
-  ]
+  }
 }
