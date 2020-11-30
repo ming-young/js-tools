@@ -1,6 +1,6 @@
 {
   "name": "zmy-sh-util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "开发常用的工具方法收集",
   "main": "index.js",
   "scripts": {
