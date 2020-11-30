@@ -1,6 +1,6 @@
 interface Options {
-  [props: string]: any;
-  [props: number]: any;
+    [props: string]: any;
+    [props: number]: any;
 }
 /**
  * 对象转 Query String Parameter
