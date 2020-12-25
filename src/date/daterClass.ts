@@ -1,6 +1,6 @@
-import firstUpper from './firstUpper';
-import formatSecond from './formatSecond';
-import headZero from './headZero';
+import firstUpper from '../normalFunction/firstUpper';
+import formatSecond from '../formatter/formatSecond';
+import headZero from '../formatter/headZero';
 
 /**
  * 日期扩展类

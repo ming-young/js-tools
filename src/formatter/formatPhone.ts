@@ -1,5 +1,5 @@
-import has from './has';
-import typer from './typer';
+import has from '../normalFunction/has';
+import typer from '../normalFunction/typer';
 /**
  * 号码格式化
  * @param {string|number} phone 号码

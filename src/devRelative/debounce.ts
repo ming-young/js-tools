@@ -1,7 +1,7 @@
-import isObject from './isObject';
-import root from './root';
+import isObject from '../normalFunction/isObject';
+import root from '../root';
 
-function debounce(func: any, wait: number, options: any) {
+function debounce(func: any, wait: number, options: {leading: boolean, maxWait: number, trailing: boolean}) {
   let lastArgs: any;
   let lastThis: any;
   let maxWait: number = 0;

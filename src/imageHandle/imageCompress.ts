@@ -1,4 +1,4 @@
-import typer from './typer';
+import typer from '../normalFunction/typer';
 /**
  * 图片压缩
  * @param {DOMObject|string} img dom对象、图片链接、base64

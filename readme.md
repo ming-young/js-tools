@@ -6,7 +6,7 @@
 
 ## 安装
 
-npm i xx
+npm i zmy-sh-util
 
 ## 使用
 
@@ -230,7 +230,7 @@ range(1, 3); // => [1, 2, 3]
 ### 设置 REM
 
 ```javascript
-import { remSetting } from 'xsy-plugins/utils';
+import { remSetting } from 'zmy-sh-util/utils';
 
 /**
  * @params {Number} designWidth 设计稿宽度，默认值 750
@@ -262,7 +262,7 @@ remSetting(750);
 ```javascript
 // js
 import Vue from 'vue';
-import { renderTemplate } from 'xsy-plugins/utils';
+import { renderTemplate } from 'zmy-sh-util/utils';
 import PrintTemplate from './template.vue';
 
 const data = { list: [1, 2] };
@@ -281,7 +281,7 @@ const { outerHTML, innerHTML } = renderTemplate(PrintTemplate, props, Vue).$el;
  * [options.showDebugLog=false]: 是否显示扫码输入日志
  * @returns {object} 扫码监听实例
  */
-import { ScanListener } from 'xsy-plugins/utils';
+import { ScanListener } from 'zmy-sh-util/utils';
 
 const scanner = new ScanListener({
   // 延迟确认输入
