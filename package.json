@@ -1,6 +1,6 @@
 {
-  "name": "zmy-sh-util",
-  "version": "1.1.0",
+  "name": "@shinho-sh/sh-util",
+  "version": "1.1.2",
   "description": "开发常用的工具方法收集",
   "main": "src/index.ts",
   "scripts": {

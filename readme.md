@@ -6,7 +6,7 @@
 
 ## 安装
 
-npm i zmy-sh-util
+npm i @shinho-sh/sh-util
 
 ## 使用
 
